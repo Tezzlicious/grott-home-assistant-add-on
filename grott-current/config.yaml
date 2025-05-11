@@ -1,5 +1,5 @@
-name: Grott Beta branch (2.8)
-version: 0.1.5
+name: Grott Beta branch (2.8.1)
+version: 0.1.6
 slug: grott-current
 description: The Growatt inverter monitor with current HA plugin integrated
 url: https://github.com/egguy/addon-grott-beta
@@ -16,8 +16,10 @@ map:
 - config:rw
 ports:
   5279/tcp: 5279
+  5782/tcp: 5782
 ports_description:
   5279/tcp: The port used by grott to receive the data of the logger
+  5782/tcp: HTTP API port
 options:
   data_path: /config/grott
   gmode: proxy
