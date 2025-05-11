@@ -13,7 +13,7 @@ This addon allow you to have all the entities automatically created.
 
 ## Add-ons provided by this repository
 
-### &#10003; [Grott Beta branch (2.8)][addon-grott-beta]
+### &#10003; [Grott Beta branch (2.8.1)][addon-grott-beta]
 
 ![Latest Version][grott-beta-version-shield]
 ![Supports armhf Architecture][grott-beta-armhf-shield]
